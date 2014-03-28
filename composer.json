@@ -1,0 +1,39 @@
+{
+    "name": "cftp/wp-extension-check",
+    "description": "Check a servers PHP extensions for WordPress requirements",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Tarendai",
+            "email": "contact@tomjn.com"
+        },
+        {
+            "name"    : "Code For The People",
+            "homepage": "http://codeforthepeople.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-date": "*",
+        "ext-dom": "*",
+        "ext-filter": "*",
+        "ext-ftp": "*",
+        "ext-gd": "*",
+        "ext-hash": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-mysql": "*",
+        "ext-openssl": "*",
+        "ext-pcre": "*",
+        "ext-posix": "*",
+        "ext-SimpleXML": "*",
+        "ext-sockets": "*",
+        "ext-SPL": "*",
+        "ext-tokenizer": "*",
+        "ext-xml": "*",
+        "ext-xmlreader": "*",
+        "ext-zlib": "*"
+    }
+}
