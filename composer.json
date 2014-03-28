@@ -34,6 +34,15 @@
         "ext-tokenizer": "*",
         "ext-xml": "*",
         "ext-xmlreader": "*",
-        "ext-zlib": "*"
+        "ext-zlib": "*",
+        "php": ">=5.2.4"
+    },
+    "suggest": {
+        "ext-imagick": "*",
+        "ext-mysqli": "*",
+        "ext-exif": "*",
+        "ext-pspell": "*",
+        "ext-gmagick": "*",
+        "php": ">=5.4"
     }
 }
