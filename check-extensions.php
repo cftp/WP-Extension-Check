@@ -94,6 +94,14 @@ foreach ( $desired_extension as $extension ) {
 
 			<p class="lead">Checks for appropriate server & PHP extensions</p>
 			<p>Running PHP <strong>v<?php echo phpversion(); ?></strong>, PHP v5.4 recommended, v5.2.4 minimum</p>
+			<?php
+			if ( !is_writable('/tmp' ) ) {
+				?>
+				<p class="text-danger">Warning: /tmp is not writable</p>
+				<?php
+			}
+
+			?>
 		</div>
 	</div>
 
