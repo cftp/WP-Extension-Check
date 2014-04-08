@@ -69,7 +69,7 @@ foreach ( $desired_extension as $extension ) {
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-	<title>CFTP Packages For The People</title>
+	<title>PHP extensions</title>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -90,7 +90,7 @@ foreach ( $desired_extension as $extension ) {
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>WordPress Extensions</h1>
+			<h1>PHP extensions</h1>
 
 			<p class="lead">Checks for appropriate server & PHP extensions</p>
 			<p>Running PHP <strong>v<?php echo phpversion(); ?></strong>, PHP v5.4 recommended, v5.2.4 minimum</p>
