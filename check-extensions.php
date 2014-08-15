@@ -25,11 +25,12 @@ $required_extensions = array(
 	'zlib'
 );
 $desired_extension = array(
+	'exif',
+	'gmagick',
 	'imagick',
 	'mysqli',
-	'exif',
 	'pspell',
-	'gmagick'
+	'ssh2'
 );
 
 $installed = array();
