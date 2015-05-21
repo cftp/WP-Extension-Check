@@ -29,7 +29,6 @@ $desired_extension = array(
 	'gmagick',
 	'imagick',
 	'mysqli',
-	'pspell',
 	'ssh2'
 );
 
